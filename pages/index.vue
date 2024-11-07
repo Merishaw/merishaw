@@ -40,14 +40,14 @@
 </template>
 
 <script setup lang="ts">
-let resp = ref('');
-let submitting = ref(false);
-let displaying = ref(false);
+let resp = ref<string>('');
+let submitting = ref<boolean>(false);
+let displaying = ref<boolean>(false);
 
-const firstName = ref('');
-const lastName = ref('');
-const phone = ref('');
-const email = ref('');
+const firstName = ref<string>('');
+const lastName = ref<string>('');
+const phone = ref<string>('');
+const email = ref<string>('');
 
 const submitDetails = async () => {
     const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{1,}$/;

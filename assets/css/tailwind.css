@@ -10,7 +10,7 @@ body {
 
 @layer components{
     .btn {
-        @apply bg-[#7a212e] rounded-2xl p-2;
+        @apply bg-[#7a212e] rounded-2xl p-2 w-48;
     }
     .loading-btn {
         @apply bg-gray-400 rounded-md p-2;
